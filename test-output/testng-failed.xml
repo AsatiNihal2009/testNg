@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Main Test Suite]">
+  <test name="Grid facebook Test on chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.tests.gridtest.selenium_grid_test.GridTestB">
+        <methods>
+          <include name="loadAmazonHomePageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tests.gridtest.selenium_grid_test.GridTestB -->
+    </classes>
+  </test> <!-- Grid facebook Test on chrome(failed) -->
+  <test name="Grid google Test on chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.tests.gridtest.selenium_grid_test.GridTest">
+        <methods>
+          <include name="loadGoogleHomePageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tests.gridtest.selenium_grid_test.GridTest -->
+    </classes>
+  </test> <!-- Grid google Test on chrome(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->

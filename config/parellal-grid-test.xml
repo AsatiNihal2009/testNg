@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Main Test Suite" parellel="tests" verbose="1">
+	<test name="Grid facebook Test on chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.tests.gridtest.selenium_grid_test.GridTestB" />
+		</classes>
+	</test>
+	<test name="Grid google Test on chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.tests.gridtest.selenium_grid_test.GridTest" />
+		</classes>
+	</test>
+	
+	
+</suite>
